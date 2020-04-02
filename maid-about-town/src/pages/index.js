@@ -1,3 +1,13 @@
-import React from "react"
+import React from 'react';
+import Layout from '../components/Layout';
+import Banner from '../components/Banner';
 
-export default () => <div>Hello world!</div>
+const Index = () => {
+    return (
+        <Layout>
+            <Banner title="Patrick" subtitle="Whitehouse" />
+        </Layout>
+    )
+}
+
+export default Index

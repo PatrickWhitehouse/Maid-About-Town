@@ -13,7 +13,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Merriweather', 'Quicksand']
+          families: ['Quicksand']
         }
       }
     }
