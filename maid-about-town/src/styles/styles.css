@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+body {
+    font-family: Quicksand;
+}
+
+.banner {
+    min-height: 65vh;
+}
