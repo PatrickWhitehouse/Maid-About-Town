@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import Banner from '../components/Banner';
-import bannerImage from '../../static/banner.jpg';
+import bannerImage from '../../static/banners/banner.jpg';
 
 const Index = () => {
     return (

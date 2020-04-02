@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 const Banner = ({ title, subtitle, image }) => {
     const bannerImageQuery = useStaticQuery(graphql`
 query MyQuery {
-  allFile {
+  allFile(filter: {sourceInstanceName: {eq: "banners"}}) {
     edges {
       node {
         id
@@ -12,16 +12,16 @@ query MyQuery {
           original {
             src
           }
-          fluid {
-             ...GatsbyImageSharpFluid
+          fluid(quality: 90) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
     }
   }
 }
-`)
 
+`)
     const findImage = bannerImageQuery.allFile.edges.find(({ node }) => node.childImageSharp.original.src === image);
     return (
         <div className="banner relative flex justify-start items-center px-10">

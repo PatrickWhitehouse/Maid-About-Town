@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/logo-clear.png';
+import logo from '../../static/misc/logo-clear.png'
 import { Link } from 'gatsby';
 
 const Navigation = () => (
@@ -7,9 +7,9 @@ const Navigation = () => (
         <ul className="flex items-center uppercase text-lg">
             <li><img src={logo} alt="Maid About Town" width="150" height="150" /></li>
             <Link to="/" activeClassName="underline" className="ml-auto"><li>Home</li></Link>
-            <Link className="ml-3"><li>About</li></Link>
-            <Link className="ml-3"><li>Services</li></Link>
-            <Link className="ml-3"><li>Contact</li></Link>
+            <Link to="/" className="ml-3"><li>About</li></Link>
+            <Link to="/" className="ml-3"><li>Services</li></Link>
+            <Link to="/" className="ml-3"><li>Contact</li></Link>
         </ul>
     </nav>
 )
