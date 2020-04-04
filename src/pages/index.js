@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import Banner from '../components/Banner';
 import bannerImage from '../../static/banners/home.jpg';
 import CleaningTypes from '../components/CleaningTypes';
+import Seo from '../components/Seo';
 
 
 
@@ -19,6 +20,7 @@ const Index = () => {
     }, []);
     return (
         <Layout>
+            <Seo prefix="Home" />
             <Banner title="Not enough hours in the day?" subtitle="We will take care of keeping your home clean, so you don't have to." image={bannerImage} />
             <CleaningTypes />
             <div className="container mx-auto py-8 text-center">

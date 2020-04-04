@@ -5,6 +5,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Maid About Town - Domestic and Commercial Cleaners",
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,

@@ -13,7 +13,7 @@ query MyQuery {
             src
           }
           fluid(quality: 100, maxWidth: 1200) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
