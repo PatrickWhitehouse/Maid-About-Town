@@ -15,3 +15,8 @@ body {
 .bg-mat {
     background-color: #ff8274;
 }
+.color-mat,
+.slick-prev:before,
+.slick-next:before {
+    color: #ff8274;
+}

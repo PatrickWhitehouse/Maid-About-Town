@@ -21,9 +21,12 @@ const Index = () => {
         <Layout>
             <Banner title="Not enough hours in the day?" subtitle="We will take care of keeping your home clean, so you don't have to." image={bannerImage} />
             <CleaningTypes />
-            <div className="examples w-full">
-                <img src={'banners/banner.jpg'} />
-                <img src={'banners/cleaner.jpg'} />
+            <div className="container mx-auto py-8 text-center">
+                <h2 className="color-mat text-4xl mb-3 font-bold">No home too big, or too small.</h2>
+                <div className="examples mx-auto w-1/2">
+                    <img src={'banners/banner.jpg'} />
+                    <img src={'banners/cleaner.jpg'} />
+                </div>
             </div>
         </Layout>
     )
