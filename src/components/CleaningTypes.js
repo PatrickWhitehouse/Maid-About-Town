@@ -4,7 +4,7 @@ import React from 'react';
 const CleaningTypes = () => (
     <div className="bg-mat text-white">
         <div className="container mx-auto">
-            <div className="grid grid-cols-4">
+            <div className="grid grid-cols-2 md:grid-cols-4">
                 <div className="cleaning-type p-5 text-center">
                     <img src="https://placehold.it/200" className="mx-auto" />
                     <span class="text-xl mt-2 block">Weekly or fortnightly</span>
