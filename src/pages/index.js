@@ -10,7 +10,7 @@ import Seo from '../components/Seo';
 
 
 
-const Index = () => {
+const Index = ({ location }) => {
 
     useEffect(() => {
         if (typeof window !== `undefined`) {
@@ -20,7 +20,7 @@ const Index = () => {
     }, []);
     return (
         <Layout>
-            <Seo prefix="Home" />
+            <Seo prefix="Home" currentUrl={location.href} />
             <Banner title="Not enough hours in the day?" subtitle="We will take care of keeping your home clean, so you don't have to." image={bannerImage} />
             <CleaningTypes />
             <div className="container mx-auto py-8 text-center">

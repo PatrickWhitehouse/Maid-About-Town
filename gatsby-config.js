@@ -7,6 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "Maid About Town - Domestic and Commercial Cleaners",
+    logo: 'misc/logo-color.png'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
