@@ -12,7 +12,7 @@ query MyQuery {
           original {
             src
           }
-          fluid(quality: 90) {
+          fluid(quality: 100, maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Layout from '../components/Layout';
 import Banner from '../components/Banner';
-import bannerImage from '../../static/banners/banner.jpg';
+import bannerImage from '../../static/banners/home.jpg';
 import CleaningTypes from '../components/CleaningTypes';
 
 
