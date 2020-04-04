@@ -23,7 +23,7 @@ const Index = () => {
             <CleaningTypes />
             <div className="container mx-auto py-8 text-center">
                 <h2 className="color-mat text-4xl mb-3 font-bold">No home too big, or too small.</h2>
-                <div className="examples mx-auto w-1/2">
+                <div className="examples mx-auto w-9/12 md:w-1/2">
                     <img src={'banners/banner.jpg'} />
                     <img src={'banners/cleaner.jpg'} />
                 </div>
