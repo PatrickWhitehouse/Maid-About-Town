@@ -1,5 +1,13 @@
 @tailwind base;
 
+h2,
+h3 {
+    @apply text-2xl;
+}
+p {
+    @apply my-3;
+}
+
 @tailwind components;
 
 @tailwind utilities;
@@ -18,5 +26,5 @@ body {
 .color-mat,
 .slick-prev:before,
 .slick-next:before {
-    color: #ff8274;
+    color: #ff8274 !important;
 }

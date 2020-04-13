@@ -1,11 +1,11 @@
+import '../styles/styles.css';
 import React from 'react';
 import Navigation from './Navigation';
-import '../styles/styles.css';
 
 const Layout = ({ children }) => (
     <>
         <Navigation />
-        <main>
+        <main className="text-lg leading-relaxed">
             {children}
         </main>
     </>

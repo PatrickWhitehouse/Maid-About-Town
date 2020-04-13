@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import $ from 'jquery';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import bannerImage from '../../static/banners/home.jpg';
+import React, { useEffect } from 'react';
+import $ from 'jquery';
 import Layout from '../components/Layout';
 import Banner from '../components/Banner';
-import bannerImage from '../../static/banners/home.jpg';
 import CleaningTypes from '../components/CleaningTypes';
 import Seo from '../components/Seo';
 
